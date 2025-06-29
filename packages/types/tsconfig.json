@@ -24,11 +24,6 @@
     // Some stricter flags (disabled by default)
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "noPropertyAccessFromIndexSignature": false,
-    "baseUrl": ".",
-    "paths": {
-      "@agencore/types": ["packages/types/src/index.ts"],
-      "@agencore/state": ["packages/state/src/main.ts"]
-    }
+    "noPropertyAccessFromIndexSignature": false
   }
 }
